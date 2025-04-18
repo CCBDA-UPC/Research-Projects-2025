@@ -46,7 +46,7 @@ everyone.
 - presentation *(use a PDF that can be attached in the repo)* and explanations
 - feedback offered by the two teams following the tutorial
 
-## Topics available
+## Topics proposed
 
 ### Using the AWS SAM CLI with Serverless.tf for local debugging and testing of Serverless applications
 
