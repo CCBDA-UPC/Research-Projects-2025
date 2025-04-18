@@ -27,9 +27,11 @@ a short, meaningful, and attractive **tutorial**.
 
 ## Instructions to deliver the assignment
 
-**Every final project team of 4 people** will be preparing a tutorial on a process. It can be something that they are using for their course project or that they are interested in digging a bit further.
+**Every final project team of 4 people** will be preparing a tutorial on oner of the topics listed below or a different topic that the team are using for their course project or that they are interested in digging a bit further.
 
-To have more variety on the topics covered, *please contact your teacher before preparing the tutorial*.
+> [!important]
+> Each team will prepare a different topic. Send an e-mail to your teacher with a list of three topics in order of preference.
+> The topics will be assigned on a fist-come first-served basis.
 
 The team members need to add a folder in **their project repo** named "research" and then a `"/research/tutorial/README.md"` file with the explanations, images, pieces of code, etc., similar to the ones used for your laboratory sessions.
 
