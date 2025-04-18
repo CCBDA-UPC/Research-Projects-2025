@@ -84,12 +84,8 @@ Following the AWS Academy Machine Learning Foundation course that introduces the
 
 [AWS Glue](https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html) is a fully managed ETL (Extract, Transform, Load) service that simplifies and automates the data integration process. It features a central metadata repository known as the Glue Data Catalog, utilizes a serverless Apache Spark ETL engine, and offers a flexible scheduler for orchestrating jobs. AWS Glue can help streamline data workflows by providing these integrated tools that handle various aspects of data preparation, loading, and transformation without the need to manage infrastructure. 
 
-###
-
-
-
-
-
 ## Deadline
 
 May 11th 2025
+
+In-class presentations May 12th 2025. **Presence required!**
