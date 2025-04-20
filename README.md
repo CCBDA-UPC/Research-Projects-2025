@@ -44,7 +44,7 @@ everyone.
 
 - tutorial documentation
 - presentation *(use a PDF that can be attached in the repo)* and explanations
-- feedback offered by the two teams following the tutorial
+- feedback offered by the class peers
 
 ## Topics proposed
 
