@@ -56,6 +56,10 @@ everyone.
 
 AWS [Chalice](https://aws.github.io/chalice/) is an open-source microframework developed by Amazon that allows you to quickly create and deploy serverless applications in Python. It’s designed to work seamlessly with AWS services like Lambda, API Gateway, S3, SQS, and SNS. You can think of Chalice as Flask or FastAPI, but for serverless apps.
 
+### Serverless Framework: multi-cloud serverless
+
+The [Serverless Framework](https://www.serverless.com) is a powerful open-source tool that simplifies the development and deployment of serverless applications across various cloud providers (AWS, Microsoft Azure and Google Cloud), with a primary focus on AWS Lambda. It enables developers to define infrastructure and application code using a concise YAML syntax, facilitating the creation of scalable and cost-effective serverless solutions. 
+
 ### Observability with New Relic integrated in AWS
 
 It is all about gaining deep insights into your application’s health, performance, and user experience. [New Relic](https://newrelic.com/) is a powerful observability platform that helps you monitor everything from backend infrastructure to frontend user behavior—all in real time. It easily integrates with Python (`pip install newrelic`) and supports EC2, RDS, Lambda, API Gateway, S3, CloudWatch, and more.
