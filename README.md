@@ -68,6 +68,12 @@ It is all about gaining deep insights into your application’s health, performa
 
 [Dynatrace](https://www.dynatrace.com/) is an AI-powered observability platform designed for modern cloud-native environments. Like New Relic, it offers full-stack monitoring—but with heavy emphasis on automation, AI root cause analysis (via its engine called Davis AI), and real-time dependency mapping. It offers a deep integration with AWS: Lambda, EC2, ECS, EKS, RDS, S3, CloudWatch, etc.
 
+### AWS EKS as an alternative to AWS Elastic Beanstalk
+
+[AWS EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is a fully managed Kubernetes service that lets you run **Kubernetes** on AWS without having to install, manage, or maintain the control plane. It’s the AWS-native way to run Kubernetes with integration into other AWS services like IAM, VPC, CloudWatch, and more.
+
+<img alt="EKS_vs_ElasticBeanstalk.png" src="EKS_vs_ElasticBeanstalk.png" width="80%"/>
+
 ### AWS SageMaker AI
 
 [AWS SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is a fully managed service provided by AWS that enables developers and data scientists to build, train, and deploy machine learning models with large scalability. It simplifies the process of building, training, and deploying machine learning models by providing an integrated environment with all the tools and infrastructure needed.
