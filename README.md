@@ -78,6 +78,10 @@ It is all about gaining deep insights into your application’s health, performa
 
 [AWS Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) is a serverless compute engine for containers. You don’t have to provision or manage EC2 instances — you just define your containers and Fargate runs them. It works with both AWS ECS, and AWS EKS. You focus on containers, Fargate handles the servers.
 
+### AWS Athena
+
+[AWS Athena](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) is a serverless, interactive query service that enables users to analyze data directly in AWS S3 using standard SQL. There is no need to manage infrastructure, and it is designed to provide a simple and cost-effective way to query large datasets.
+
 ### AWS SageMaker AI
 
 [AWS SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is a fully managed service provided by AWS that enables developers and data scientists to build, train, and deploy machine learning models with large scalability. It simplifies the process of building, training, and deploying machine learning models by providing an integrated environment with all the tools and infrastructure needed.
