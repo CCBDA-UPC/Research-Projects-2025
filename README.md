@@ -74,6 +74,10 @@ It is all about gaining deep insights into your application’s health, performa
 
 <img alt="EKS_vs_ElasticBeanstalk.png" src="EKS_vs_ElasticBeanstalk.png" width="80%"/>
 
+### AWS Fargate
+
+[AWS Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) is a serverless compute engine for containers. You don’t have to provision or manage EC2 instances — you just define your containers and Fargate runs them. It works with both AWS ECS, and AWS EKS. You focus on containers, Fargate handles the servers.
+
 ### AWS SageMaker AI
 
 [AWS SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) is a fully managed service provided by AWS that enables developers and data scientists to build, train, and deploy machine learning models with large scalability. It simplifies the process of building, training, and deploying machine learning models by providing an integrated environment with all the tools and infrastructure needed.
