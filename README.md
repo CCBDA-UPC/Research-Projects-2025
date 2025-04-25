@@ -1,50 +1,59 @@
-# Homework research project
+#  Research project
 
-One of the objectives of the **homework research project** is to study a little bit in-depth a subject that draws your
-attention and interest related to Cloud Computing and Big Data Analytics. It is a common practice in computer science
-where professionals regularly need to **increase their knowledge on new topics that they might need to use for their
-daily work**.
+## Objectives & Guidelines
 
-During the research, you need to be able _to find reliable and trustworthy sources of information_, understand them, and
-try to invest as much or as little time as necessary to decide whether you are going to spend more time learning about the subject.
+One of the main objectives of this **research project** is to allow you to explore a topic related to **Cloud Computing and Big Data Analytics** that genuinely interests you. This exercise reflects a common and essential practice in the field of computer science, where professionals are often required to **expand their knowledge on emerging technologies** that may become relevant in their day-to-day work.
 
-Another of the objectives of this homework assignment is to **cooperate and share your knowledge** with your peers and
-help each other to be able to have a broader understanding of Cloud Computing and Big Data Analytics. Therefore, to
-focus your research, I would like you to think about the information that you will be sharing from your classmates
-perspective _(use the following ideas to center your research focus, not like the report index)_:
+### What You’re Expected to Do
 
-* What would you like to know about the presented topic to be able to decide if it is worth going in-depth or stop and
-  take a different approach?
-* What do people say regarding the subject you are studying: is it very successful? Is it mature enough? Do many people
-  praise or criticize it?
-* What has been your personal experience regarding the subject? What lessons have you learned?
-* Share some relevant sources of information to learn more about the topic (URLs of websites, Articles, Blogs, PDF
-  files, online courses, etc.)
+As part of your research:
+- You should be able to **identify reliable and trustworthy sources**, understand their content, and critically assess whether the topic is worth exploring further.
+- You are encouraged to invest as much or as little time as needed to evaluate the topic’s potential value to your learning or future career.
 
-A final objective of this assignment is to be able to **share the information attractively and concisely**. You can't
-expect your audience to invest lots of time on a topic that may not be of interest. Therefore, I encourage you to deliver
-a short, meaningful, and attractive **tutorial**.
+### Collaboration & Knowledge Sharing
+
+Another key goal of this assignment is to foster **collaboration and peer learning**. Sharing insights with your classmates helps everyone build a more comprehensive understanding of the field. 
+
+To guide your research and presentation, consider what your classmates might want to know about your topic. Use the following questions to shape your focus (these are **not** intended to be used as a report outline):
+
+- **Relevance**: What would someone need to know to decide whether it's worth diving deeper into this topic or moving on to something else?
+- **Community Insight**: What are people saying about this technology or concept? Is it widely adopted? Is it considered mature, promising, or problematic?
+- **Personal Perspective**: What has been your experience while exploring this subject? What lessons did you learn?
+- **Learning Resources**: Share useful resources (e.g., websites, articles, blogs, PDFs, courses) that can help others learn more.
+
+### Presentation Matters
+
+Finally, an important aspect of this assignment is your ability to **communicate your findings clearly, concisely, and engagingly**. Keep in mind:
+- Your classmates may not have much time or prior interest in your topic.
+- Make your presentation **brief, informative, and appealing** — think of it as a **mini-tutorial** that sparks curiosity.
 
 ## Instructions to deliver the assignment
 
 > [!important]
-> Each team will prepare a different topic. Send an e-mail to your teacher with a list of three topics in order of preference.
-> The topics will be assigned on a fist-come first-served basis.
->
+> Each team must work on a **different topic**. To reserve a topic, send an email to your instructor listing **three preferred topics in order of priority**.
+> Topics will be assigned on a **first-come, first-served** basis.
 
-**Every final project team of 4 people** will be preparing a tutorial on oner of the topics listed below or a different topic that the team are using for their course project or that they are interested in digging a bit further.
+Each project team (consisting of **4 members**) will prepare a **tutorial** on one of the topics listed below or another topic that:
+- Is being used in their main course project, **or**
+- Sparks the team's curiosity and is worth exploring further.
 
-The team members need to add a folder in **their project repo** named "research" and then a `"/research/tutorial/README.md"` file with the explanations, images, pieces of code, etc., similar to the ones used for your laboratory sessions.
+### Deliverables
 
-The teacher will evaluate the tutorials based on the documentation, presentation and the feedback offered by the
-students. Once all tutorials have been evaluated, they will be included in this repository to make them available for
-everyone.
+Your team must:
+1. Create a folder named `research` inside your **project repository**.
+2. Inside that folder, add a file:  
+   `research/tutorial/README.md`
 
-**Grade**:
+The `research` folder should include your tutorial content — **explanations, images, code snippets, visualizations**, etc. — following the same style and structure used in the lab sessions.
 
-- tutorial documentation
-- presentation *(use a PDF that can be attached in the repo)* and explanations
-- feedback offered by the class peers
+### Evaluation Criteria
+
+The tutorial will be assessed based on:
+- The **clarity and completeness** of your documentation,
+- The **quality of the presentation**, and
+- The **feedback provided by your peers**.
+
+After evaluation, all approved tutorials will be added to the main course repository to serve as shared learning resources for future students.
 
 ## Topics proposed
 
