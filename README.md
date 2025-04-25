@@ -134,6 +134,9 @@ Following the AWS Academy Machine Learning Foundation course that introduces the
 
 May 11th 2025
 
-In-class presentations May 12th 2025. **Presence required!**
+> [!warning]
+> In-class presentations May 12th 2025
+> 
+> Presence required!
 
 
