@@ -26,7 +26,7 @@ To guide your research and presentation, consider what your classmates might wan
 Finally, an important aspect of this assignment is your ability to **communicate your findings clearly, concisely, and engagingly**. Keep in mind:
 - Your classmates may not have much time or prior interest in your topic.
 - Make your presentation **brief, informative, and appealing** — think of it as a **mini-tutorial** that sparks curiosity.
-- 
+
 > [!important]
 > - Each team will have a maximum of **10 minutes** to present their tutorial, followed by **5 minutes** for Q&A.
 > - To minimize technical issues during the session, any slide decks must be submitted **in PDF format** **before the deadline** as stated below.
@@ -119,15 +119,15 @@ Following the AWS Academy Machine Learning Foundation course that introduces the
 > Each team must work on a **different topic**. To reserve a topic, send an email to your instructor listing **three preferred topics in order of priority**.
 > Topics will be assigned on a **first-come, first-served** basis.
 
-| TEAM  | TOPIC                                          | MEMBERS |
-|-------|------------------------------------------------|------------|
-| 11_01 | AWS Glue                                       | ANNA MONSO, DANIEL WERONSKI, IVAN MARTINEZ YATES, MARC PARCERISA |
-| 11_02 | AWS Athena                                     |    BRUNA BARRAQUER, NAYARA COSTA, QIUCHI CHEN, ZHENGYONG JI |
-| 11_03 | Observability with Dynatrace integrated in AWS | DAVIDE LAMAGNA EZGI SENA KARABACAK MEHMET OGUZ ARSLAN POL VERDURA |
-| 11_04 |                                                |BAPTISTE KRUGLER LEONARDO EGIDATI MATTEO SALARI XAVIER LOPEZ MANES|
-| 12_01 |                                                |ALEXIS VENDRIX GABRIEL GUERRA FERNANDEZ JOAN RODRIGUEZ GARCIA NASHLY ERIELIS GONZALEZ |
-| 12_02 |                                                |HEIDI RASMUSSEN JOSEPH WINTERS LARS FLEM XIN TONG |
-| 12_03 | AWS SageMaker AI |JAKOB EBERHARDT KOSINSKI BARTOSZ PABLO FABRICIO AGUIRRE GUAMAN VALDEMAR BANG VOJTECH BESTAK |
+| TEAM  | TOPIC                                                                        | MEMBERS                                                                                     |
+|-------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| 11_01 | [AWS Glue](glue/presentation.pdf)                                            | ANNA MONSO, DANIEL WERONSKI, IVAN MARTINEZ YATES, MARC PARCERISA                            |
+| 11_02 | [AWS Athena](athena/presentation.pdf)                                        | BRUNA BARRAQUER, NAYARA COSTA, QIUCHI CHEN, ZHENGYONG JI                                    |
+| 11_03 | [Observability with Dynatrace integrated in AWS](dynatrace/presentation.pdf) | DAVIDE LAMAGNA EZGI SENA KARABACAK MEHMET OGUZ ARSLAN POL VERDURA                           |
+| 11_04 | []() | BAPTISTE KRUGLER LEONARDO EGIDATI MATTEO SALARI XAVIER LOPEZ MANES                          |
+| 12_01 | []() | ALEXIS VENDRIX GABRIEL GUERRA FERNANDEZ JOAN RODRIGUEZ GARCIA NASHLY ERIELIS GONZALEZ       |
+| 12_02 | []()                                                                         | HEIDI RASMUSSEN JOSEPH WINTERS LARS FLEM XIN TONG                                           |
+| 12_03 | [AWS SageMaker AI](sagemaker/presentation.pdf)                               | JAKOB EBERHARDT KOSINSKI BARTOSZ PABLO FABRICIO AGUIRRE GUAMAN VALDEMAR BANG VOJTECH BESTAK |
 
 
 ## Deadline
