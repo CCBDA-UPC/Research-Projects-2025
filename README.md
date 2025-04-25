@@ -26,6 +26,10 @@ To guide your research and presentation, consider what your classmates might wan
 Finally, an important aspect of this assignment is your ability to **communicate your findings clearly, concisely, and engagingly**. Keep in mind:
 - Your classmates may not have much time or prior interest in your topic.
 - Make your presentation **brief, informative, and appealing** — think of it as a **mini-tutorial** that sparks curiosity.
+- 
+> [!important]
+> - Each team will have a maximum of **10 minutes** to present their tutorial, followed by **5 minutes** for Q&A.
+> - To minimize technical issues during the session, any slide decks must be submitted **in PDF format** **before the deadline** as stated below.
 
 ## Instructions to deliver the assignment
 
