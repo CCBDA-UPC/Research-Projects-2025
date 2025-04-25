@@ -41,8 +41,8 @@ Each project team (consisting of **4 members**) will prepare a **tutorial** on o
 
 Your team must:
 1. Create a folder named `research` inside your **project repository**.
-2. Inside that folder, add a file:  
-   `research/tutorial/README.md`
+2. Inside that folder, add a file: `research/tutorial/README.md`
+3. If you need slides for your in-class presentation include a **PDF file** `research/tutorial/presentation.pdf`.
 
 The `research` folder should include your tutorial content — **explanations, images, code snippets, visualizations**, etc. — following the same style and structure used in the lab sessions.
 
