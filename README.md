@@ -119,15 +119,15 @@ Following the AWS Academy Machine Learning Foundation course that introduces the
 > Each team must work on a **different topic**. To reserve a topic, send an email to your instructor listing **three preferred topics in order of priority**.
 > Topics will be assigned on a **first-come, first-served** basis.
 
-| TEAM  | TOPIC                                                                                                               | MEMBERS                                                                                         |
-|-------|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| 11_01 | [AWS Glue](glue/README.md) [:arrow_forward:](glue/presentation.pdf)                                                 | ANNA MONSO, DANIEL WERONSKI, IVAN MARTINEZ YATES, MARC PARCERISA                                |
-| 11_02 | [AWS Athena](athena/README.md) [:arrow_forward:](athena/presentation.pdf)                                           | BRUNA BARRAQUER, NAYARA COSTA, QIUCHI CHEN, ZHENGYONG JI                                        |
-| 11_03 | [Observability with Dynatrace integrated in AWS](dynatrace/README.md) [:arrow_forward:](dynatrace/presentation.pdf) | DAVIDE LAMAGNA, EZGI SENA KARABACAK, MEHMET OGUZ ARSLAN, POL VERDURA                            |
-| 11_04 | [](/README.md) [:arrow_forward:]()                                                                                  | BAPTISTE KRUGLER, LEONARDO EGIDATI, MATTEO SALARI, XAVIER LOPEZ MANES                           |
-| 12_01 | [Chalice: a framework for writing serverless applications in Python](chalice/README.md) [:arrow_forward:](chalice/presentation.pdf)  | ALEXIS VENDRIX, GABRIEL GUERRA FERNANDEZ, JOAN RODRIGUEZ GARCIA, NASHLY ERIELIS GONZALEZ        |
-| 12_02 | [](/README.md) [:arrow_forward:]()                                                                                  | HEIDI RASMUSSEN, JOSEPH WINTERS, LARS FLEM, XIN TONG                                            |
-| 12_03 | [AWS SageMaker AI](sagemaker/README.md) [:arrow_forward:](sagemaker/presentation.pdf)                               | JAKOB EBERHARDT, KOSINSKI BARTOSZ, PABLO FABRICIO AGUIRRE GUAMAN, VALDEMAR BANG, VOJTECH BESTAK |
+| TEAM  | TOPIC                                                                                                                               | MEMBERS                                                                                         |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| 11_01 | [AWS Glue](glue/README.md) [:arrow_forward:](glue/presentation.pdf)                                                                 | ANNA MONSO, DANIEL WERONSKI, IVAN MARTINEZ YATES, MARC PARCERISA                                |
+| 11_02 | [AWS Athena](athena/README.md) [:arrow_forward:](athena/presentation.pdf)                                                           | BRUNA BARRAQUER, NAYARA COSTA, QIUCHI CHEN, ZHENGYONG JI                                        |
+| 11_03 | [Observability with Dynatrace integrated in AWS](dynatrace/README.md) [:arrow_forward:](dynatrace/presentation.pdf)                 | DAVIDE LAMAGNA, EZGI SENA KARABACAK, MEHMET OGUZ ARSLAN, POL VERDURA                            |
+| 11_04 | [AWS Fargate](fargate/README.md) [:arrow_forward:](fargate/presentation.pdf)                                                                         | BAPTISTE KRUGLER, LEONARDO EGIDATI, MATTEO SALARI, XAVIER LOPEZ MANES                           |
+| 12_01 | [Chalice: a framework for writing serverless applications in Python](chalice/README.md) [:arrow_forward:](chalice/presentation.pdf) | ALEXIS VENDRIX, GABRIEL GUERRA FERNANDEZ, JOAN RODRIGUEZ GARCIA, NASHLY ERIELIS GONZALEZ        |
+| 12_02 | [](/README.md) [:arrow_forward:]()                                                                                                  | HEIDI RASMUSSEN, JOSEPH WINTERS, LARS FLEM, XIN TONG                                            |
+| 12_03 | [AWS SageMaker AI](sagemaker/README.md) [:arrow_forward:](sagemaker/presentation.pdf)                                               | JAKOB EBERHARDT, KOSINSKI BARTOSZ, PABLO FABRICIO AGUIRRE GUAMAN, VALDEMAR BANG, VOJTECH BESTAK |
 
 
 ## Deadline
