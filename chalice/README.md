@@ -1,18 +1,4 @@
-<img src="images/Portada.png" width="100%" style="display: block; margin: 0 auto">
-
 # Serverless API with AWS Chalice — Research 2025
-
-#### Group Members: Team 12_01
-
-- Gabriel Guerra — gabriel.guerra.fernandez@estudiantat.upc.edu
-- Alexis Vendrix — alexis.andre.l.vendrix@estudiantat.upc.edu
-- Joan Rodríguez — joan.rodriguez.garcia@estudiantat.upc.edu
-- Nashly González — nashly.erielis.gonzalez@estudiantat.upc.edu
-
-#### Repository:
-
-https://github.com/CCBDA-UPC/2025-Project-12_01_A.git
-
 ## Table of Contents
 
 - [Introduction](#introduction)
