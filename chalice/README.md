@@ -1,4 +1,4 @@
-# Serverless API with AWS Chalice — Research 2025
+# Serverless API with AWS Chalice
 ## Table of Contents
 
 - [Introduction](#introduction)
