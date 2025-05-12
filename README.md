@@ -126,7 +126,7 @@ Following the AWS Academy Machine Learning Foundation course that introduces the
 | 11_03 | [Observability with Dynatrace integrated in AWS](dynatrace/README.md) [:arrow_forward:](dynatrace/presentation.pdf)                 | DAVIDE LAMAGNA, EZGI SENA KARABACAK, MEHMET OGUZ ARSLAN, POL VERDURA                            |
 | 11_04 | [AWS Fargate](fargate/README.md) [:arrow_forward:](fargate/presentation.pdf)                                                        | BAPTISTE KRUGLER, LEONARDO EGIDATI, MATTEO SALARI, XAVIER LOPEZ MANES                           |
 | 12_01 | [Chalice: a framework for writing serverless applications in Python](chalice/README.md) [:arrow_forward:](chalice/presentation.pdf) | ALEXIS VENDRIX, GABRIEL GUERRA FERNANDEZ, JOAN RODRIGUEZ GARCIA, NASHLY ERIELIS GONZALEZ        |
-| 12_02 | [AWS EKS as an alternative to AWS Elastic Beanstalk](kubernetes/README.md) [:arrow_forward:]()                                      | HEIDI RASMUSSEN, JOSEPH WINTERS, LARS FLEM, XIN TONG                                            |
+| 12_02 | [AWS EKS as an alternative to AWS Elastic Beanstalk](kubernetes/README.md) [:arrow_forward:](kubernetes/presentation.pdf)           | HEIDI RASMUSSEN, JOSEPH WINTERS, LARS FLEM, XIN TONG                                            |
 | 12_03 | [AWS SageMaker AI](sagemaker/README.md) [:arrow_forward:](sagemaker/presentation.pdf)                                               | JAKOB EBERHARDT, KOSINSKI BARTOSZ, PABLO FABRICIO AGUIRRE GUAMAN, VALDEMAR BANG, VOJTECH BESTAK |
 
 
