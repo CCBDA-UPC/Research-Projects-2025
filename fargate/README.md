@@ -7,7 +7,7 @@ You focus on developing and deploying your applications, while AWS automatically
 
 > Simply put: You build your application, AWS Fargate runs it without you worrying about the servers.
 
-![](../screenshots/1-what_AWS_fargate.png)
+![](screenshots/1-what_AWS_fargate.png)
 
 ---
 
@@ -194,7 +194,7 @@ First of all we will create a AWS Elastic Container Service cluster. A cluster i
      
 ```
 
-![](../screenshots/1-creation_cluster.png)
+![](screenshots/1-creation_cluster.png)
 
 ## Step 2 – Create a Task Definition
 
@@ -308,7 +308,7 @@ Sample output:
   
 ```
 
-![](../screenshots/x-screenshot-1.png)
+![](screenshots/x-screenshot-1.png)
 
 ## Step 3 – Launch the Task and Link It to the Cluster
 
@@ -389,9 +389,9 @@ Sample output:
     }
 
 ```
-![](../screenshots/x-screenshot-2.png)
+![](screenshots/x-screenshot-2.png)
 
-![](../screenshots/x-screenshot-3.png)
+![](screenshots/x-screenshot-3.png)
 
 ## Step 4 – Access the Application
 
@@ -438,7 +438,7 @@ http://<public-ip>
 
 You should see the custom Apache welcome page served from your container.
 
-![](../screenshots/x-screenshot-5.png)
+![](screenshots/x-screenshot-5.png)
 
 ### Security Group Configuration
 
@@ -458,7 +458,7 @@ To stop a running task, you need its Task ID.
   --task <your-task-id>
 ```
 
-![](../screenshots/3-stop_task.png)
+![](screenshots/3-stop_task.png)
 
 ```bash
 └─$ aws ecs list-task-definitions
@@ -483,9 +483,9 @@ In a real-world application, we want the web server to run multiple instances, t
   --network-configuration "awsvpcConfiguration={subnets=[subnet-XXXX],securityGroups=[sg-XXXX],assignPublicIp=ENABLED}"
 ```
 
-![](../screenshots/4-double_running.png)
+![](screenshots/4-double_running.png)
 
-![](../screenshots/5-double_tasks.png)
+![](screenshots/5-double_tasks.png)
 
 ## Step 7 – Clean Up Resources
 
@@ -558,7 +558,7 @@ aws elbv2 create-load-balancer \
   --scheme internet-facing
 ```
 
-![ALB created and active](../screenshots/4-EC2_load_balancer.png)
+![ALB created and active](screenshots/4-EC2_load_balancer.png)
 
 This confirms that the ALB `fargate-alb` is active and associated with the correct VPC.
 
@@ -601,7 +601,7 @@ aws ecs create-service \
    http://<alb-dns-name>
    ```
 
-![ALB listener details](../screenshots/6-load_balancer_success.png)
+![ALB listener details](screenshots/6-load_balancer_success.png)
 
 Here you can see the ALB listener forwarding traffic on port 80 to the `fargate-targets` group.
 
@@ -698,7 +698,7 @@ aws elbv2 delete-load-balancer --load-balancer-arn <load-balancer-arn>
 aws elbv2 delete-target-group --target-group-arn <target-group-arn>
 ```
 
-![No load balancers remaining](../screenshots/7-delete_load_balancer.png)
+![No load balancers remaining](screenshots/7-delete_load_balancer.png)
 
 This screen confirms that the load balancer has been successfully deleted.
 
@@ -812,7 +812,7 @@ And run the task to ensure it works properly:
 
 Finally, we can see our custom application running on AWS Fargate.
 
-![Custom Website](../screenshots/website-custom.PNG)
+![Custom Website](screenshots/website-custom.PNG)
 
 
 
