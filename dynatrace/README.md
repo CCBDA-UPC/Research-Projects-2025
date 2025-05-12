@@ -39,7 +39,7 @@ After registration, you’ll receive a link to your Dynatrace environment where 
 
 ```bash
 .
-├── main.py                # dynatrace-demo app with all endpoints
+├── app.py                 # dynatrace-demo app with all endpoints
 ├── otel_tracing.py        # OTLP tracing pipeline setup
 ├── otel_metrics.py        # OTLP metrics pipeline setup
 ├── dynatrace_logger.py    # Custom Dynatrace logs integration

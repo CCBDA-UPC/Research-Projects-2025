@@ -2,12 +2,10 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
-from dynatrace_logger import send_log_to_dynatrace
-from otel_metrics import setup_metrics
+from dynatrace.backend.dynatrace_logger import send_log_to_dynatrace
+from dynatrace.backend.otel_metrics import setup_metrics
 import time, random
 from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
-import otel_tracing
-
 
 app = FastAPI()
 FastAPIInstrumentor().instrument_app(app)
