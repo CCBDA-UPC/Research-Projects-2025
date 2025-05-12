@@ -4,7 +4,7 @@
 
 Kubernetes is an open sourced orchestration tool developed by Google to manage containers over several machines, or nodes. While Docker loads and runs containers, Kubernetes orchestrates and manages them. With Kubernetes you can run and manage a very large amount of containers efficiently.
 
-<img src="../img/Kubernetes_comp.jpg" width=70% height=70%>
+<img src="img/Kubernetes_comp.jpg" width=70% height=70%>
 
 Here are some of the main components of kubernetes:
 
@@ -29,7 +29,7 @@ The downside of using Amazon EKS is that it costs more than Kubernetes. AWS char
 **EKS Standard:** EKS manage the Kubernetes Control Plane. You have to setup and manage the EC2 instances yourself
 EKS Auto (Fargate): With EKS Auto Nodes are managed as well, and EC2 instances are managed for you
 
-<img src="../img/AWS_EKS_auto_vs_standard.JPG" width=70% height=70%>
+<img src="img/AWS_EKS_auto_vs_standard.JPG" width=70% height=70%>
 
 ## Amazon EKS vs AWS Elastic Beanstalk
 
@@ -53,7 +53,7 @@ We tried to setup EKS for the Django applications used in the labs
 
 EKS cluster created
 
-<img src="../img/EKS_cluster_created.png" width=70% height=70%>
+<img src="img/EKS_cluster_created.png" width=70% height=70%>
 
 #### Configure laptop to communicate with the cluster
 Create a kubeconfig file for our cluster
@@ -89,7 +89,7 @@ And then we found `CoreDNS`, `Kube-proxy`, `VPC CNI` networking plugins are not 
 
 Network plugins added.
 
-<img src="../img/network_plugins_added.png" width=70% height=70%>
+<img src="img/network_plugins_added.png" width=70% height=70%>
 
 The status of nodes have changed to `Ready`.
 
@@ -207,25 +207,25 @@ Due to the limitations of the Learner Lab role, we cannot deploy the AWS Load Ba
 lynx http://10.100.37.151:8000
 ```
 
-<img src="../img/lynx_ccbda-web.png" width=70% height=70%>
+<img src="img/lynx_ccbda-web.png" width=70% height=70%>
 
 #### Some screenshots of the cluster
 
 Cluster view
 
-<img src="../img/eks-cluster-view.png" width=70% height=70%>
+<img src="img/eks-cluster-view.png" width=70% height=70%>
 
 `ccbda` nodegroup with 2 nodes
 
-<img src="../img/eks-node-group.png" width=70% height=70%>
+<img src="img/eks-node-group.png" width=70% height=70%>
 
 `ccbda-web-app` deployment with 2 pods
 
-<img src="../img/eks-ccbda-deployment.png" width=70% height=70%>
+<img src="img/eks-ccbda-deployment.png" width=70% height=70%>
 
 `ccbda-web-app` service to create a ClusterIP
 
-<img src="../img/eks-service.png" width=70% height=70%>
+<img src="img/eks-service.png" width=70% height=70%>
 
 
 
