@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FastAPI Dynatrace Demo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background-color: #3498db;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    input {
+      padding: 12px;
+      margin: 10px;
+      font-size: 16px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+  </style>
+  <!-- Dynatrace RUM JavaScript tag -->
+<script type="text/javascript" src="https://js-cdn.dynatrace.com/jstag/19343e753a3/bf83814xbh/8cf07dfea9444ab1_complete.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>FastAPI Dynatrace Integration</h1>
+    <input type="text" id="thingInput" placeholder="Thing to add..." />
+    <div>
+      <button onclick="addThing()">Add Thing</button>
+      <button onclick="overloadApp()">Overload App</button>
+      <button onclick="triggerError()">Trigger Error</button>
+    </div>
+  </div>
+
+  <script>
+    const apiBase = "http://localhost:8000"; // Change to your backend URL if deployed
+
+    async function addThing() {
+      const thing = document.getElementById('thingInput').value;
+      if (!thing) return alert("Please enter a thing to add.");
+
+      try {
+        const res = await fetch(`${apiBase}/add-thing`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ item: thing })
+        });
+        const data = await res.json();
+        alert(`Server response: ${data.message}`);
+      } catch (err) {
+        console.error("Failed to add thing", err);
+        alert("Error occurred while adding thing.");
+      }
+    }
+
+    async function overloadApp() {
+      try {
+        const res = await fetch(`${apiBase}/overload`, { method: 'POST' });
+        const data = await res.json();
+        alert(`Overload triggered: ${data.status}`);
+      } catch (err) {
+        console.error("Failed to overload app", err);
+        alert("Error occurred during overload.");
+      }
+    }
+
+    async function triggerError() {
+      const res = await fetch(`${apiBase}/error`);
+      const data = await res.json();
+      if (!res.ok) {
+        alert(`Intentional error: ${data.error}`);
+      } else {
+        alert("Unexpected success");
+      }
+    }
+  </script>
+</body>
+</html>

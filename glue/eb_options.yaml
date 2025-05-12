@@ -1,0 +1,8 @@
+aws:autoscaling:launchconfiguration:
+  EC2KeyName: vockey
+  IamInstanceProfile: LabInstanceProfile
+aws:ec2:instances:
+  InstanceTypes: t3.micro
+aws:elasticbeanstalk:environment:
+  ServiceRole: LabRole
+  LoadBalancerType: application
