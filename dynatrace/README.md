@@ -108,7 +108,7 @@ For each curl, you should get the corresponding log message:
 You can also test the endpoints using the frontend. Open the index.html in browser and try adding things, overloading server and triggering errors.
 
 <p align="center">
-  <img src="../img/frontend.png" alt="Frontend of web app">
+  <img src="img/frontend.png" alt="Frontend of web app">
 </p>
 <p align="center"><strong>Figure:</strong>Frontend of web app</p>
 
@@ -117,13 +117,13 @@ You can also test the endpoints using the frontend. Open the index.html in brows
 - **Traces**: Go to **Observe > Distributed Traces > Ingested Traces**. Filter by `GET /overload`, `GET /error`, etc.
 
 <p align="center">
-  <img src="../img/traces.png" alt="Github action for websocket app.">
+  <img src="img/traces.png" alt="Github action for websocket app.">
 </p>
 <p align="center"><strong>Figure:</strong>Traces in Dynatrace</p>
 
 - **Logs**: Search for **Logs** using the search bar. After that you can filter by `service.name:dynatrace-demo-app` or `route:/add-thing`. .
 <p align="center">
-  <img src="../img/logs.png" alt="Github action for websocket app.">
+  <img src="img/logs.png" alt="Github action for websocket app.">
 </p>
 <p align="center"><strong>Figure:</strong>Logs in Dynatrace</p>
 
@@ -132,7 +132,7 @@ You can also test the endpoints using the frontend. Open the index.html in brows
 - **Metrics**: Go to **Observe > Metrics** and search for `overload_duration_seconds`.
 
 <p align="center">
-  <img src="../img/metrics_overload.png" alt="Metrics for overload in Dynatrace">
+  <img src="img/metrics_overload.png" alt="Metrics for overload in Dynatrace">
 </p>
 <p align="center"><strong>Figure:</strong>Metrics for overload in Dynatrace</p>
 
@@ -140,7 +140,7 @@ You can also test the endpoints using the frontend. Open the index.html in brows
 1. Go to **Services > Settings > Anomaly Detection**
 2. Apply below configurations
 <p align="center">
-  <img src="../img/alert_settings.png" alt="Configuration for alert in Dynatrace">
+  <img src="img/alert_settings.png" alt="Configuration for alert in Dynatrace">
 </p>
 <p align="center"><strong>Figure:</strong>Configuration for alert in Dynatracee</p>
 
@@ -148,7 +148,7 @@ You can also test the endpoints using the frontend. Open the index.html in brows
 4. You can trigger the error via error button in frontend and in the Dynatrace services section after choosing your app you can see the Problems (Alerts) raised. This allows Dynatrace to detect and notify you of real-time issues, helping you respond quickly to system failures or instability.
 
 <p align="center">
-  <img src="../img/alert.png" alt="Alert triggered in Dynatrace">
+  <img src="img/alert.png" alt="Alert triggered in Dynatrace">
 </p>
 <p align="center"><strong>Figure:</strong>Alert triggered in Dynatrace,
 </p>
@@ -168,7 +168,7 @@ static/index.html          # HTML page with buttons and RUM tag
 2. Click **Create Custom Application**
 
 <p align="center">
-  <img src="../img/create_custom_application.png" alt="Create custom application">
+  <img src="img/create_custom_application.png" alt="Create custom application">
 </p>
 <p align="center"><strong>Figure:</strong>Create custom application</p>
 
@@ -207,12 +207,12 @@ Applications > dynatrace-demo-app > Session Replay, User Actions, JS Errors
 - Inspect top user actions
 
 <p align="center">
-  <img src="../img/frontend_analyyics.png" alt="Frontend Analytics">
+  <img src="img/frontend_analyyics.png" alt="Frontend Analytics">
 </p>
 <p align="center"><strong>Figure:</strong>Frontend Analytics</p>
 
 <p align="center">
-  <img src="../img/top_user_actions.png" alt="Top user actions">
+  <img src="img/top_user_actions.png" alt="Top user actions">
 </p>
 <p align="center"><strong>Figure:</strong>Top user actions</p>
 
